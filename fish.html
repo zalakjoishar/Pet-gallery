@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fish - Pet Gallery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .card .card-img-top{
+      height: 200px;
+      width: 342px;
+    }
+    body {
+      background-color: #f8f9fa;
+    }
+    .card {
+      height: 100%;
+    }
+    .card-body {
+      display: flex;
+      flex-direction: column;
+    }
+    .card-text {
+      flex-grow: 1;
+    }
+    .navbar-dark, .bg-dark {
+      background-color: #212529 !important;
+    }
+    .footer {
+      background-color: #212529;
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+    }
+    .scrollspy-example {
+      position: relative;
+      height: 100%;
+      overflow: auto;
+    }
+  </style>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" tabindex="0">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item pt-2"><a class="nav-link active" href="pet gallary.html">Home</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active pt-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">Membership</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="register.html">Register</a></li>
+                <li><a class="dropdown-item" href="login.html">Login</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link active pt-3" href="#fo">Contact Us</a></li>
+            <li class="nav-item"><a class="nav-link active pt-3" href="aboutpage.html">About</a></li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+  <div class="container-fluid">
+    <div class="row">
+      <nav id="navbar-example2" class="col-md-3 col-lg-2 d-md-block bg-dark sidebar text-white position-sticky p-3">
+        <h3>Types of Pets</h3>
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link text-white" href="mammals.html">Mammals</a>
+          <a class="nav-link text-white active" href="fish.html">Fish</a>
+          <a class="nav-link text-white" href="birds.html">Birds</a>
+          <a class="nav-link text-white" href="reptile.html">Reptiles & Amphibians</a>
+          <a class="nav-link text-white" href="exotic.html">Exotic Pets</a>
+        </nav>
+      </nav>
+
+      <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 py-4">
+        <h2 class="mb-4">Fish - Pet Gallery</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card shadow-lg bg-body rounded h-100" id="i8">
+              <img src="./static/goldfish image.png" class="card-img-top" alt="Goldfish">
+              <div class="card-body">
+                <h5 class="card-title">Goldfish</h5>
+                <p class="card-text">Goldfish are colorful, easy to care for, and one of the most popular freshwater pets.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-lg bg-body rounded h-100" id="i8">
+              <img src="./static/betta.jpg" class="card-img-top" alt="Betta Fish">
+              <div class="card-body">
+                <h5 class="card-title">Betta Fish</h5>
+                <p class="card-text">Betta fish are vibrant and known for their aggressive nature and beautiful fins.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-lg bg-body rounded h-100" id="i8">
+              <img src="./static/guppie fish.jpeg" class="card-img-top" alt="Guppies">
+              <div class="card-body">
+                <h5 class="card-title">Guppies</h5>
+                <p class="card-text">Guppies are small, live-bearing fish that are easy to care for and breed quickly.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-lg bg-body rounded h-100" id="i8">
+              <img src="./static/tetras.jpg" class="card-img-top" alt="Tetras">
+              <div class="card-body">
+                <h5 class="card-title">Tetras</h5>
+                <p class="card-text">Tetras are peaceful community fish, great for planted tanks and beginner aquarists.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-lg bg-body rounded h-100" id="i8">
+              <img src="./static/cichlids.jpg" class="card-img-top" alt="Cichlids">
+              <div class="card-body">
+                <h5 class="card-title">Cichlids</h5>
+                <p class="card-text">Cichlids are diverse, intelligent fish that require more advanced care and large tanks.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-lg bg-body rounded h-100" id="i8">
+              <img src="./static/koi fish.jpg" class="card-img-top" alt="Koi">
+              <div class="card-body">
+                <h5 class="card-title">Koi</h5>
+                <p class="card-text">Koi are ornamental pond fish that symbolize luck and are admired for their size and beauty.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <span>&copy; 2025 Pet Gallery. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

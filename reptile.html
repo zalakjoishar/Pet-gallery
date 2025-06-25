@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reptiles - Pet Gallery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .card .card-img-top{
+      height: 200px;
+      width: 342px;
+    }
+    body {
+      background-color: #f8f9fa;
+    }
+    .card {
+      height: 100%;
+    }
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+    #navbar-example2 {
+      position: sticky;
+      top: 56px;
+      height: calc(100vh - 56px);
+      overflow-y: auto;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item pt-2"><a class="nav-link active" href="pet gallary.html">Home</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active pt-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">Membership</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="register.html">Register</a></li>
+                <li><a class="dropdown-item" href="login.html">Login</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link active pt-3" href="#fo">Contact Us</a></li>
+            <li class="nav-item"><a class="nav-link active pt-3" href="aboutpage.html">About</a></li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+  <div class="container-fluid">
+    <div class="row">
+      <nav id="navbar-example2" class="col-md-3 col-lg-2 d-md-block bg-dark sidebar text-white position-sticky p-3">
+        <h3>Types of Pets</h3>
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link text-white" href="mammals.html">Mammals</a>
+          <a class="nav-link text-white" href="fish.html">Fish</a>
+          <a class="nav-link text-white" href="birds.html">Birds</a>
+          <a class="nav-link text-white active" href="reptiles.html">Reptiles & Amphibians</a>
+          <a class="nav-link text-white" href="exotic.html">Exotic Pets</a>
+        </nav>
+      </nav>
+
+      <!-- Main Content -->
+      <main class="col-md-10 ms-sm-auto px-md-4 py-4">
+        <h2>Reptiles - Pet Gallery</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card shadow-lg bg-body rounded h-100" id="i8">
+              <img src="./static/turtule.jpg" class="card-img-top" alt="Turtle">
+              <div class="card-body">
+                <h5 class="card-title">Turtles</h5>
+                <p class="card-text">Peaceful aquatic or land reptiles with protective shells.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-lg bg-body rounded h-100" id="i8">
+              <img src="./static/lizard.jpg" class="card-img-top" alt="Gecko">
+              <div class="card-body">
+                <h5 class="card-title">Lizards</h5>
+                <p class="card-text">Includes geckos, iguanas, and bearded dragons – curious and hardy reptiles.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-lg bg-body rounded h-100" id="i8">
+              <img src="./static/snakes.jpeg" class="card-img-top" alt="Snake">
+              <div class="card-body">
+                <h5 class="card-title">Snakes</h5>
+                <p class="card-text">Captivating pets for experienced handlers, known for their unique beauty.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-lg bg-body rounded h-100" id="i8">
+              <img src="./static/frog.jpg" class="card-img-top" alt="Frog">
+              <div class="card-body">
+                <h5 class="card-title">Frogs</h5>
+                <p class="card-text">Popular amphibians like tree frogs and dart frogs with colorful skins.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3 mt-4">
+    <p>&copy; 2025 Pet Gallery. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Pets Gallery</title>
+    <style>
+      .card .card-img-top{
+        height: 200px;
+        width: 354.5px;
+      }
+      .footer-navbar {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 2rem;
+      }
+      .footer-navbar-col {
+        flex: 1;
+        min-width: 150px;
+      }
+      .card {
+        height: 100%;
+      }
+      .card-img-top {
+        height: 250px;
+        object-fit: cover;
+      }
+      .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item pt-2"><a class="nav-link active" href="pet gallary.html">Home</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active pt-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">Membership</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="register.html">Register</a></li>
+                <li><a class="dropdown-item" href="login.html">Login</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link active pt-3" href="#fo">Contact Us</a></li>
+            <li class="nav-item"><a class="nav-link active pt-3" href="aboutpage.html">About</a></li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <nav id="navbar-example2" class="col-md-3 col-lg-2 d-md-block bg-dark sidebar text-white position-sticky p-3">
+        <h3>Types of Pets</h3>
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link text-white" href="mammals.html">Mammals</a>
+          <a class="nav-link text-white" href="fish.html">Fish</a>
+          <a class="nav-link text-white" href="birds.html">Birds</a>
+          <a class="nav-link text-white" href="reptile.html">Reptiles & Amphibians</a>
+          <a class="nav-link text-white" href="exotic.html">Exotic Pets</a>
+        </nav>
+      </nav>
+        <div class="col-10 mt-2">
+          <div class="row row-cols-1 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-lg bg-body rounded h-100" id="i8">
+                  <img src="./static/dog.jpg" class="card-img-top" alt="Dog">
+                  <div class="card-body">
+                      <h5 class="card-title">Dog</h5>
+                      <p class="card-text">Loyal and friendly companions, dogs are one of the most common mammalian pets.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="card shadow-lg bg-body rounded h-100" id="i8">
+                  <img src="./static/cat.jpg" class="card-img-top" alt="Cat">
+                  <div class="card-body">
+                      <h5 class="card-title">Cat</h5>
+                      <p class="card-text">Cats are independent and affectionate pets loved for their playful nature.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="card shadow-lg bg-body rounded h-100" id="i8">
+                  <img src="./static/rabbit.jpg" class="card-img-top" alt="Rabbit">
+                  <div class="card-body">
+                      <h5 class="card-title">Rabbit</h5>
+                      <p class="card-text">Rabbits are gentle pets that enjoy social interaction and cuddles.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="card shadow-lg bg-body rounded h-100" id="i8">
+                  <img src="./static/Guinea Pig.jpeg" class="card-img-top" alt="Guinea Pig">
+                  <div class="card-body">
+                      <h5 class="card-title">Guinea Pig</h5>
+                      <p class="card-text">Guinea pigs are social, gentle rodents that thrive in small groups.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="card shadow-lg bg-body rounded h-100" id="i8">
+                <img src="./static/parakeet.jpeg" class="card-img-top" alt="Parakeets">
+                <div class="card-body">
+                  <h5 class="card-title">Parakeets (Budgies)</h5>
+                  <p class="card-text">Colorful, intelligent, and playful birds that are easy to care for.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-lg bg-body rounded h-100" id="i8">
+              <img src="./static/goldfish image.png" class="card-img-top" alt="Goldfish">
+              <div class="card-body">
+                <h5 class="card-title">Goldfish</h5>
+                <p class="card-text">Goldfish are colorful, easy to care for, and one of the most popular freshwater pets.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-lg bg-body rounded h-100"  id="i8">
+              <img src="./static/lizard.jpg" class="card-img-top" alt="Gecko">
+              <div class="card-body">
+                <h5 class="card-title">Lizards</h5>
+                <p class="card-text">Includes geckos, iguanas, and bearded dragons – curious and hardy reptiles.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+              <div class="card shadow-lg bg-body rounded h-100" id="i8">
+                <img src="./static/chincilla.jpg" class="card-img-top" alt="Chinchilla">
+                <div class="card-body">
+                  <h5 class="card-title">Chinchilla</h5>
+                  <p class="card-text">Soft, furry rodents known for their playful nature and dense fur.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-navbar mt-2 p-5 bg-dark text-white" id="fo">
+      <div class="footer-navbar-col"><h5>Solutions</h5><ul><li><a href="#" class="text-white">Marketing</a></li><li><a href="#" class="text-white">Analyst</a></li><li><a href="#" class="text-white">Insight</a></li><li><a href="#" class="text-white">Commerce</a></li></ul></div>
+      <div class="footer-navbar-col"><h5>Support</h5><ul><li><a href="#" class="text-white">Insight</a></li><li><a href="#" class="text-white">Analyst</a></li><li><a href="#" class="text-white">Marketing</a></li><li><a href="#" class="text-white">Commerce</a></li></ul></div>
+      <div class="footer-navbar-col"><h5>Company</h5><ul><li><a href="#" class="text-white">Analyst</a></li><li><a href="#" class="text-white">Commerce</a></li><li><a href="#" class="text-white">Marketing</a></li><li><a href="#" class="text-white">Insight</a></li></ul></div>
+      <div class="footer-navbar-col"><h5>Legal</h5><ul><li><a href="#" class="text-white">Commerce</a></li><li><a href="#" class="text-white">Analyst</a></li><li><a href="#" class="text-white">Insight</a></li><li><a href="#" class="text-white">Marketing</a></li></ul></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
